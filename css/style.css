@@ -1,4 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
+}
+
+header{
+  background-color: #354f52;
+  height: 90px;
+  display: flex;
+}
+
+nav{
+  width: 500;
+  display: flex;
+  gap: 275px;
+  align-items: center;
+}
+
+ul,li{
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  list-style-type: none;
+  gap: 75px;
+  color: #dad7cd;
+  padding: 0px 0px 0px 0px;
+}
+
+ul{
+  width: 400px;
+  padding: 0px 0px 0px 950px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.league-logo-header{
+  max-width: 125px;
+  max-height: 50px;
+  padding: 20px 0px 0px 50px;
+}
+
+.user-img{
+  align-items: center;
+  filter: brightness(0) saturate(100%) invert(93%) sepia(5%) saturate(394%) hue-rotate(53deg) brightness(90%) contrast(91%);
+  width: 30px;
+}
+
+nav li:hover{
+  color: #84a98c;
+  transition: 0.2s;
+}
+
+
+nav img:hover{
+  filter: brightness(0) saturate(100%) invert(60%) sepia(18%) saturate(438%) hue-rotate(81deg) brightness(95%) contrast(88%);
+  transition: 0.2s;
 }
