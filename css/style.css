@@ -9,6 +9,9 @@ header{
   background-color: #354f52;
   height: 90px;
   display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
 
 nav{
@@ -16,6 +19,21 @@ nav{
   display: flex;
   gap: 275px;
   align-items: center;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #354f52;
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4c6163;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 1px solid #21474b;  /* creates padding around scroll thumb */
 }
 
 ul,li{
@@ -63,9 +81,9 @@ nav img:hover{
 }
 
 .hero-img{
-  width: 1903px;
+  width: 1908px;
   height: 1050px;
-  position: absolute;
+  z-index: -1;
 }
 
 .hero-introducing{
@@ -74,10 +92,11 @@ nav img:hover{
   font-style: normal;
   font-size: 15px;
   background-color: #354f526e;
+  color: rgb(230, 230, 223);
   width: 1200px;
   padding: 30px;
   position: relative;
-  top: 350px;
+  bottom: 40rem;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
