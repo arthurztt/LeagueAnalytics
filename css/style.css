@@ -2,7 +2,7 @@
 
 *{
   margin: 0;
-  padding: 0;
+  padding: 0 ;
 }
 
 header{
@@ -57,6 +57,10 @@ a{
   text-decoration: none;
 }
 
+section .center-hero-container{
+  height: 1050px;
+}
+
 .league-logo-header{
   max-width: 125px;
   max-height: 50px;
@@ -81,8 +85,8 @@ nav img:hover{
 }
 
 .hero-img{
-  width: 1908px;
-  height: 1050px;
+  width: 100%;
+  height: auto;
   z-index: -1;
 }
 
@@ -100,6 +104,57 @@ nav img:hover{
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+
+.em-alta-main{
+  background-color: #354f52;
+}
+
+.em-alta-changes-position{
+  background-color: #273b3d;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.em-alta-changes-position h1{
+  background-color: #334e50;
+  color: rgb(230, 230, 223);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 20px 50px 20px 20px;
+  text-align: center;
+}
+
+.em-alta-changes-position>.roles-icons{
+  width: 27px;
+  height: 27px;
+  margin-right: 50px;
+  filter: opacity(60%);
+  cursor: pointer;
+}
+
+.main-txt-em-alta{
+  display: flex;
+  margin: 30px 840px 30px 30px;
+}
+
+.roles-icons:hover{
+  filter: opacity(100%);
+  transition: 0.2s;
+}
+
+#fire-icon{
+  position: relative;
+  width: 22px;
+  height: auto;
+  right: 40px;
+  filter: brightness(0) saturate(100%) invert(66%) sepia(94%) saturate(6333%) hue-rotate(11deg) brightness(93%) contrast(100%);
+}
+
 
 /*
 .ubuntu-regular {
