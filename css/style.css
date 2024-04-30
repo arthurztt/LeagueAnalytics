@@ -126,7 +126,7 @@ nav img:hover{
   border-radius: 10px;
   padding: 20px 50px 20px 20px;
   text-align: center;
-  outline: 1px solid rgba(0, 0, 0, 0.45);
+  outline: 1px solid rgba(0, 0, 0, 0.377);
 }
 
 .em-alta-changes-position>.roles-icons{
@@ -140,6 +140,11 @@ nav img:hover{
 .main-txt-em-alta{
   display: flex;
   margin: 30px 840px 30px 30px;
+}
+
+.roles-icons{
+  background-color: #466567b0;
+  width: 150px;
 }
 
 .roles-icons:hover{
